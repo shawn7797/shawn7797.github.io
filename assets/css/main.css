@@ -3316,7 +3316,8 @@ template {
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 45px;
 }
 
 .devicon-express-original-wordmark:before {
@@ -4993,7 +4994,12 @@ a img {
 }
 
 .tech {
-    margin: 10px
+    margin: 10px;
+}
+
+.tech img {
+    width: 45px;
+    height: 45px;
 }
 
 .user {
